@@ -1,18 +1,18 @@
 # App Dev Workflow
 
 > 通用 App 開發工作鏈 — 從商業模式到上線，7 階段全流程模板。
-> 適用於 Flutter / React / Vue / SwiftUI / HTML 任何 App。
+> 適合 Flutter / React / Vue / SwiftUI / HTML 任何 App。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## 這是什麼？
 
-`app-dev-workflow` 是一個給 AI Agent（Hermes、Claude Code、OpenCode 等）使用的 Skill。載入後會自動引導你走完 App 開發的 7 個階段，每一步都有明確的交付物、對應的 AI Skills，和完成檢查點。
+`app-dev-workflow` 是一個給 AI Agent（Hermes、Claude Code、OpenCode 等）使用的 Skill。載入後會自動引導你走完 App 開發的 7 個階段，每一步都有明確的交付物、對應的 AI Skills，和完成檢查點。**Phase 0 的商業模式庫全部來自 5 個真實上線 App 的實戰經驗。**
 
 ## 7 階段工作鏈
 
 ```
-💰 Phase 0: 商業模式 ─→ 定價 + 粘性 + 收入預測
+💰 Phase 0: 商業模式 ─→ 6種定價模式 × 11種粘性機制 × 5個真實App數據
 📋 Phase 1: 策略     ─→ JTBD + 競品 + MVP 範圍
 🎨 Phase 2: 設計     ─→ Design System + 組件庫
 🏗️ Phase 3: 架構     ─→ 技術棧 + 目錄結構
@@ -21,20 +21,39 @@
 🚀 Phase 6: 上線     ─→ 測試 + 安全 + 發布
 ```
 
+## 五大真實 App 商業模式
+
+| App | 類型 | 定價 | 粘性機制 |
+|-----|------|------|---------|
+| **Posture AI** | AI 姿勢矯正 | HK$10/月 | 百日火苗 Streak · 脊椎年齡指標 |
+| **Micro-Log** | 語音健康日誌 | HK$10/月 (3次免費) | AI 煉金術動效 · 數字保險庫鎖定 |
+| **Oasis Mind** | AI 心理陪伴 | Pro HK$58/月 + 心靈點數制 | 心靈植物養成 · 首次驚喜獎勵 |
+| **VIM** | 健身競賽 | HK$58/月 + 積分經濟系統 | 沙盒挑戰賽 · 排行榜競技 |
+| **Medic Agent** | 醫療健康平台 | 銀58-鑽石388 (分級 VIP) | 人頭制共享 · 病歷數據累積 |
+
 ## 特色
 
-- 💰 **Phase 0 商業模式設計**：4 種定價模式 + 6 種用戶粘性機制（來自真實上線 App 的實戰經驗）
-- 🔥 **遊戲化留存**：百日火苗 Streak、脊椎年齡指標、數字保險庫鎖定
-- ✨ **驚喜時刻**：AI 煉金術粒子動效、個性化偽定制
+- 💰 **Phase 0 商業模式設計**：6 種定價模式（低價微訂閱、中價會員、分級 VIP、虛擬貨幣/點數制、積分經濟、Freemium）
+- 🔥 **11 種用戶粘性機制**：遊戲化進度（Streak/指標/養成）、數據鎖定（保險庫/匯出/歷史）、驚喜時刻（AI動效/個性化/首次獎勵）、信任建立（隱私/本地AI）
+- 📈 **含收入預測速算**：轉換率基準、ARPU 基準、盈虧平衡點
 - 🎯 **JTBD 驅動**：不猜功能，從用戶真實需求反向推導
 - 🧪 **TDD 強制**：每個功能先寫測試再寫代碼
+
+## 源於實戰
+
+這個 Skill 不是理論推導的——所有商業模式和粘性機制都來自 Jeremy Chum 團隊真實開發的 5 個 App：
+
+- **Oasis Mind**：AI 心理陪伴（心靈植物 + 點數經濟）
+- **VIM**：健身競賽平台（積分經濟 + 沙盒挑戰 + AI 反作弊裁判）
+- **Medic Agent**：醫療健康平台（分級 VIP 人頭制 + 疾病管理）
+- **Posture AI**：姿勢矯正（Streak 遊戲化 + 本地 AI 信任）
+- **Micro-Log**：語音日誌（AI 煉金術 + 數字保險庫鎖定）
 
 ## 安裝
 
 ### Hermes Agent
 
 ```bash
-# 直接複製到 skills 目錄
 git clone https://github.com/jeremychum1030/app-dev-workflow.git ~/.hermes/skills/app-dev-workflow
 ```
 
@@ -60,19 +79,10 @@ git clone https://github.com/jeremychum1030/app-dev-workflow.git ~/.hermes/skill
 ## 在專案中使用
 
 ```bash
-# 複製進度追蹤模板到你的專案
 cp template-workflow_state.md /path/to/your-project/.workflow_state.md
 ```
 
-編輯 `.workflow_state.md` 填入你的專案名稱，然後開始 Phase 0。
-
-## 來自真實專案的商業模式庫
-
-| App | 定價模式 | 核心粘性機制 |
-|-----|---------|-------------|
-| **Posture AI** | HK$10/月 | 百日火苗 Streak + 脊椎年齡指標 |
-| **Micro-Log** | 3次免費→HK$10/月 | AI 煉金術 + 數字保險庫鎖定 |
-| **Medic Agent** | HK$58-388 分級 VIP | 人頭制共享 + 數據累積價值 |
+編輯 `.workflow_state.md` 填入專案名稱，從 Phase 0 開始。
 
 ## 適用場景
 
@@ -88,4 +98,4 @@ MIT — 自由使用、修改、分發。
 
 ---
 
-*Made with ❤️ by Jeremy Chum — 從真實專案中提取的開發方法論*
+*Made with ❤️ by Jeremy Chum — 5 個真實 App 的開發方法論濃縮*
