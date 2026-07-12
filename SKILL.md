@@ -314,7 +314,109 @@ ARPU 基準:
 - 不追問 bug，自己查
 - replace_all 禁用 >500 行
 
-## 來自真實專案的商業模式速查
+---
+
+## 🗺️ 完整技能地圖（~65 個 App 開發技能）
+
+> 載入 `app-dev-workflow` 時，根據當前 Phase 自動調用對應技能組。
+
+### 🏗️ 框架核心
+
+| 平台 | 技能 | Phase |
+|------|------|:---:|
+| Flutter/Dart | `dart-flutter-patterns` `flutter-dart-code-review` `flutter-overflow-prevention` | 3,4 |
+| Swift/iOS | `swiftui-patterns` `swiftui-pro` `swiftui-debugging` `swift-concurrency-6-2` `swift-actor-persistence` `ios-icon-gen` | 3,4,5 |
+| React Native | `react-native-patterns` | 3,4 |
+| Kotlin | `compose-multiplatform-patterns` `android-clean-architecture` | 3,4 |
+
+### 🎨 設計系統
+
+| 類別 | 技能 | Phase |
+|------|------|:---:|
+| Design System | `design-system` `theme-factory` | 2 |
+| Brand | `brandkit` `brand-guidelines` `brand-voice` `brand-voice-consistency` `brand-discovery` | 2 |
+| Design Taste | `design-taste-frontend` `design-taste-frontend-v1` `high-end-visual-design` `loop-design-check` | 2,5 |
+
+### 🖌️ UI 風格 (MengTo 40+)
+
+| 風格 | 技能 |
+|------|------|
+| 極簡 | `minimalist-ui` `clean-minimal-beige-light-mode` |
+| 玻璃 | `glass-dark-ui` `glass-dark-mode-clock` `dark-glass-clean-layout` `liquid-glass-design` |
+| 工業 | `industrial-brutalist-ui` `technical-wireframe-info-layout` |
+| 3D/WebGL | `threejs` `cobejs` `webgl-3d-object` `globe-gl` `globe-particles` `background-grid-webgl` `webgl-laser` |
+| 動效 | `animation-systems` `animation-on-scroll` `gsap` `gsap-scrolltrigger-storytelling` `cinematic-gsap-lenis-motion-system` `cinematic-scroll-storytelling` |
+| 特效 | `skeuomorphic-ui` `progressive-blur` `masked-reveal` `staggered-word-reveal` `marquee-loop` `dither-background` |
+| 佈局 | `landing-page` `pricing-page` `agency-grid-layout-minimal` `split-layout-technical` `framed-grid-layout` `nested-container-frames` |
+| 元件 | `matterjs` `vantajs` `tailwindcss` `beautiful-shadows` `company-logos` `css-border-gradient` |
+
+### ✨ 動畫/3D 系統
+
+| 類別 | 技能 | Phase |
+|------|------|:---:|
+| 基礎動畫 | `motion-foundations` `motion-advanced` `motion-patterns` `motion-ui` | 4,5 |
+| 影片 | `remotion` `remotion-video-creation` | 5,6 |
+| 3D/WebGL | `threejs` `cobejs` `webgl-3d-object` `webgl-laser` `globe-particles` | 4 |
+| 特效 | `progressive-blur` `masked-reveal` `solar-duotone-bold` `corner-diagonals` `corner-lasers` | 5 |
+
+### 🔍 QA/測試
+
+| 類別 | 技能 | Phase |
+|------|------|:---:|
+| TDD | `tdd` `tdd-workflow` `test-driven-development` | 4 |
+| Code Review | `flutter-dart-code-review` `code-review` `code-review-specialist` `requesting-code-review` `receiving-code-review` | 4 |
+| 設計審查 | `loop-design-check` | 2,4,5 |
+| 調試 | `systematic-debugging` `diagnosing-bugs` `qa` | 4,5 |
+| E2E | `e2e-testing` `browser-qa` `webapp-testing` | 6 |
+| 安全 | `security-review` `security-scan` `safety-guard` `gateguard` | 6 |
+
+### 🚀 構建/發布
+
+| 類別 | 技能 | Phase |
+|------|------|:---:|
+| MVP 構建 | `orch-build-mvp` `prototype` | 4 |
+| 項目管理 | `plan-orchestrate` `writing-plans` `executing-plans` | 1,4 |
+| 部署 | `deployment-patterns` `netlify-deploy` | 6 |
+| CI/CD | `git-workflow` `using-git-worktrees` `finishing-a-development-branch` | 4,6 |
+| 監控 | `production-audit` `automation-audit-ops` | 6 |
+
+### 🔧 後端/API
+
+| 類別 | 技能 | Phase |
+|------|------|:---:|
+| API | `api-design` `api-connector-builder` `mcp-builder` | 3 |
+| FastAPI | `fastapi-patterns` | 3 |
+| Django | `django-patterns` `django-tdd` `django-security` `django-verification` | 3 |
+| 資料庫 | `postgres-patterns` `mysql-patterns` `redis-patterns` | 3 |
+| 通用 | `backend-patterns` `docker-patterns` | 3 |
+
+### 🧠 思維/策略
+
+| 類別 | 技能 | Phase |
+|------|------|:---:|
+| 策略 | `thinking-first-principles` `thinking-jobs-to-be-done` `thinking-inversion` `thinking-second-order` `thinking-pre-mortem` | 0,1 |
+| 產品 | `steve-jobs-perspective` `elon-musk-perspective` `naval-perspective` | 0,1 |
+| 創意 | `brainstorming` `what-if-oracle` `hypothesis-generation` | 1 |
+| 研究 | `deep-research` `research-synthesis` `academic-paper` | 0,1 |
+
+### 🎬 媒體/內容
+
+| 類別 | 技能 | Phase |
+|------|------|:---:|
+| 圖片 | `screenshot` `image-to-code` `unsplash-asset-images` `aura-asset-images` | 5 |
+| 影片 | `video-to-superprompt` `manim-video` | 5 |
+| 圖表 | `architecture-diagram` `excalidraw` `drawio-generator` | 2,4 |
+| 文案 | `copywriting` `humanizer` `copy-editing` `content-strategy` | 2,4 |
+| PPT | `officecli-pptx` `officecli-pitch-deck` `dashiai-ppt` `frontend-slides` | 2,5 |
+
+### 🏥 垂直領域（可選）
+
+| 領域 | 技能 |
+|------|------|
+| 醫療 | `healthcare-emr-patterns` `healthcare-cdss-patterns` `hipaa-compliance` `clinical-decision-support` `treatment-plans` `clinical-reports` |
+| 金融 | `officecli-financial-model` `financial-calculator` |
+| 學術 | `academic-pipeline` `academic-paper-reviewer` `scientific-writing` |
+| 法律 | `legal-risk-assessment` `legal-document-summarization` 等 38 個法律技能 |
 
 | 模式 | 定價 | 試用 | 來源 |
 |------|------|------|------|
