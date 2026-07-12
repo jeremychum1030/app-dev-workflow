@@ -31,11 +31,23 @@
 | **VIM** | 健身競賽 | HK$58/月 + 積分經濟系統 | 沙盒挑戰賽 · 排行榜競技 |
 | **Medic Agent** | 醫療健康平台 | 銀58-鑽石388 (分級 VIP) | 人頭制共享 · 病歷數據累積 |
 
+## v3.0 技能地圖 (~65 個技能)
+
+| Phase | 類別 | 對應 Skills |
+|:-----:|------|------------|
+| 0 | 💰 商業 | `thinking-first-principles` `thinking-jobs-to-be-done` `steve-jobs-perspective` |
+| 1 | 📋 策略 | `brainstorming` `deep-research` `academic-paper` `what-if-oracle` |
+| 2 | 🎨 設計 | `design-system` `brandkit` `theme-factory` `brand-guidelines` `design-taste-frontend` `minimalist-ui` `high-end-visual-design` `loop-design-check` + MengTo 40+ UI 風格 |
+| 3 | 🏗️ 架構 | `dart-flutter-patterns` `swiftui-patterns` `react-native-patterns` `api-design` `backend-patterns` `postgres-patterns` |
+| 4 | 🔨 構建 | `orch-build-mvp` `tdd` `tdd-workflow` `flutter-dart-code-review` `code-review` `prototype` + `animation-systems` `threejs` `gsap` |
+| 5 | ✨ 打磨 | `high-end-visual-design` `frontend-a11y` `systematic-debugging` `screenshot` `copywriting` `remotion` |
+| 6 | 🚀 上線 | `e2e-testing` `security-review` `production-audit` `deployment-patterns` `netlify-deploy` `ios-icon-gen` |
+
 ## 特色
 
-- 💰 **Phase 0 商業模式設計**：6 種定價模式（低價微訂閱、中價會員、分級 VIP、虛擬貨幣/點數制、積分經濟、Freemium）
-- 🔥 **11 種用戶粘性機制**：遊戲化進度（Streak/指標/養成）、數據鎖定（保險庫/匯出/歷史）、驚喜時刻（AI動效/個性化/首次獎勵）、信任建立（隱私/本地AI）
-- 📈 **含收入預測速算**：轉換率基準、ARPU 基準、盈虧平衡點
+- 💰 **Phase 0 商業模式設計**：6 種定價模式 + 11 種粘性機制 + 5 個真實 App 數據
+- 🗺️ **完整技能地圖**：65+ 個 App 開發技能，按 Phase 自動配對
+- 🎨 **40+ UI 風格**：玻璃/工業/極簡/3D/動效，來自 MengTo 設計庫
 - 🎯 **JTBD 驅動**：不猜功能，從用戶真實需求反向推導
 - 🧪 **TDD 強制**：每個功能先寫測試再寫代碼
 
