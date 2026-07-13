@@ -388,7 +388,7 @@ ARPU 基準:
 | FastAPI | `fastapi-patterns` | 3 |
 | Django | `django-patterns` `django-tdd` `django-security` `django-verification` | 3 |
 | 資料庫 | `postgres-patterns` `mysql-patterns` `redis-patterns` | 3 |
-| 通用 | `backend-patterns` `docker-patterns` | 3 |
+| 通用 | `backend-patterns` `docker-patterns` `codebase-design` `to-tickets` `request-refactor-plan` | 3,4 |
 
 ### 🧠 思維/策略
 
@@ -397,16 +397,17 @@ ARPU 基準:
 | 策略 | `thinking-first-principles` `thinking-jobs-to-be-done` `thinking-inversion` `thinking-second-order` `thinking-pre-mortem` | 0,1 |
 | 產品 | `steve-jobs-perspective` `elon-musk-perspective` `naval-perspective` | 0,1 |
 | 創意 | `brainstorming` `what-if-oracle` `hypothesis-generation` | 1 |
-| 研究 | `deep-research` `research-synthesis` `academic-paper` | 0,1 |
+| 研究 | `deep-research` `research-synthesis` `academic-paper` `summarize-document` | 0,1 |
+| 需求 | `to-spec` `meeting-notes-to-actions` `domain-modeling` `ubiquitous-language` | 1,3 |
 
 ### 🎬 媒體/內容
 
 | 類別 | 技能 | Phase |
 |------|------|:---:|
-| 圖片 | `screenshot` `image-to-code` `unsplash-asset-images` `aura-asset-images` | 5 |
+| 圖片 | `screenshot` `image-to-code` `unsplash-asset-images` `aura-asset-images` `gimi-illustration` | 5 |
 | 影片 | `video-to-superprompt` `manim-video` | 5 |
-| 圖表 | `architecture-diagram` `excalidraw` `drawio-generator` | 2,4 |
-| 文案 | `copywriting` `humanizer` `copy-editing` `content-strategy` | 2,4 |
+| 圖表 | `architecture-diagram` `excalidraw` `drawio-generator` `cli-anything-drawio` `cli-anything-mermaid` | 2,4 |
+| 文案 | `copywriting` `humanizer` `copy-editing` `content-strategy` `article-writing` `writing-shape` `writing-beats` | 2,4 |
 | PPT | `officecli-pptx` `officecli-pitch-deck` `dashiai-ppt` `frontend-slides` | 2,5 |
 
 ### 🏥 垂直領域（可選）
