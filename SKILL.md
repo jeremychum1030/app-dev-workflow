@@ -333,8 +333,8 @@ ARPU 基準:
 
 | 類別 | 技能 | Phase |
 |------|------|:---:|
-| Design System | `design-system` `theme-factory` | 2 |
-| Brand | `brandkit` `brand-guidelines` `brand-voice` `brand-voice-consistency` `brand-discovery` | 2 |
+| Design System | `design-system` `theme-factory` `ui-ux-pro-max` `design` `ui-styling` | 2 |
+| Brand | `brandkit` `brand-guidelines` `brand-voice` `brand-voice-consistency` `brand-discovery` `brand` | 2 |
 | Design Taste | `design-taste-frontend` `design-taste-frontend-v1` `high-end-visual-design` `loop-design-check` | 2,5 |
 
 ### 🖌️ UI 風格 (MengTo 40+)
