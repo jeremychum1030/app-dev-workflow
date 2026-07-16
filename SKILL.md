@@ -38,10 +38,29 @@ version: 3.2.0
 ## Phase 0: 商業模式與營收設計
 
 > **先想清楚怎麼賺錢，再開始寫代碼。**
-> 以下全部來自 5 個真實開發上線的 App 實戰經驗。
+> 以下全部來自 5 個真實開發上線的 App + 7 個創業點子數據庫。
 
 ### 自動載入 Skills
-`thinking-inversion` `thinking-first-principles`
+`thinking-inversion` `thinking-first-principles` `market-research` `customer-research` `web-researcher`
+
+### 🔍 Step 0.1: 痛點發現（數據驅動）
+
+| 數據庫 | 來源 | 用途 |
+|------|------|------|
+| `business-ideas-dataset` | Reddit + App Store 評論 | 真實用戶痛點 × 需求強度評分 |
+| `startup-ideas` | 月度市場分析 | 最新創業機會趨勢 |
+| `niche-app-ideas` | 細分市場 | 小眾未滿足需求 |
+| `app-ideas` (florinpop) | 大型創意合集 | 含功能需求 + 難度分級 |
+| `awesome-app-ideas` (×2) | 移動/效率/健身 | 多領域靈感 |
+| `Best-Micro-SaaS-Tools` | 真實產品 | 可研究的收費模式 |
+
+> 數據庫位置: `~/Desktop/business-ideas-db/`
+
+**痛點發現流程:**
+1. 從數據庫搜尋相關痛點關鍵詞
+2. 用 `market-research` + `web-researcher` 驗證市場需求
+3. 用 `customer-research` 確認目標用戶畫像
+4. 用 `thinking-jobs-to-be-done` 定義核心 Jobs
 
 ---
 
