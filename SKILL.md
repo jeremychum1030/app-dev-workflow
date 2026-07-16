@@ -1,7 +1,7 @@
 ---
 name: app-dev-workflow
 description: 通用 App 開發工作鏈模板 — 從商業模式到上線的全流程。載入後自動引導當前階段，含來自 Medic Agent/Posture AI/Micro-Log 的真實商業模式庫。
-version: 2.0.0
+version: 3.2.0
 ---
 
 # App 開發工作鏈 v2
@@ -396,7 +396,7 @@ ARPU 基準:
 |------|------|:---:|
 | 策略 | `thinking-first-principles` `thinking-jobs-to-be-done` `thinking-inversion` `thinking-second-order` `thinking-pre-mortem` | 0,1 |
 | 產品 | `steve-jobs-perspective` `elon-musk-perspective` `naval-perspective` | 0,1 |
-| 創意 | `brainstorming` `what-if-oracle` `hypothesis-generation` | 1 |
+| 創意 | `brainstorming` `what-if-oracle` `hypothesis-generation` `grok-imagine` | 1 |
 | 研究 | `deep-research` `research-synthesis` `academic-paper` `summarize-document` | 0,1 |
 | 需求 | `to-spec` `meeting-notes-to-actions` `domain-modeling` `ubiquitous-language` | 1,3 |
 
